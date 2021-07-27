@@ -2,16 +2,12 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      /* "flex-layout.row#shelf", */
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      /* "flex-layout.row#shelf-ofertas", */
+      "rich-text#shelf-ofertas",
+      "flex-layout.row#categorias",
+      /* "flex-layout.row#shelf-precios", */
+      "rich-text#shelf-precios"
     ]
   },
 
@@ -21,12 +17,12 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/slider-home/slider1.jpg",
+          "mobileImage": "assets/slider-home/slider1.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "assets/slider-home/slider2.jpg",
+          "mobileImage": "assets/slider-home/slider2.jpg"
         }
       ]
     }
@@ -43,27 +39,23 @@
       "blockClass": "carousel"
     }
   },
-
-  "rich-text#shelf-title": {
+  "rich-text#shelf-ofertas": {
     "props": {
-      "text": "## Summer",
+      "text": "## Nuestras ofertas",
       "blockClass": "shelfTitle"
     }
-  }/* ,
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
-  } */,
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
   },
-  "slider-layout#demo-products": {
+  "flex-layout.row#shelf-ofertas": {
+    "children": ["list-context.product-list#ofertas"]
+  },
+  "list-context.product-list#ofertas": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#ofertas-productos"]
+  },
+  "slider-layout#ofertas-productos": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 2,
         "tablet": 3,
         "phone": 1
       },
@@ -72,32 +64,155 @@
       "blockClass": "shelf"
     }
   },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+  "flex-layout.row#categorias":{
+    "children":[
+      "flex-layout.col#col-cat1",
+      "flex-layout.col#col-cat2"
+    ],
+    "props":{
+      "fullWidth": false,
+      "blockClass": "bloque-categorias-home"
     }
   },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+  "flex-layout.col#col-cat1":{
+    "children":[
+      "flex-layout.row#rev-cemento",
+      "flex-layout.row#bachas",
+      "flex-layout.row#bazar-cocina"
+    ]
+  },
+  "flex-layout.row#rev-cemento":{
+    "children":[
+      "info-card#rev-cemento"
+    ]
+  },
+  "info-card#rev-cemento":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/imagenes/revestimientos.jpg",
+      "callToActionMode": "none",
+      "linkTarjet": "#",
+      "headline": "Revestimientos Cémenticos",
+      "texAlignment": "center",
+      "blockClass": "bloque-cat"
     }
   },
-
-  "rich-text#link": {
+  "flex-layout.row#bachas":{
+    "children":[
+      "info-card#bachas"
+    ]
+  },
+  "info-card#bachas":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/imagenes/bachas.jpg",
+      "callToActionMode": "none",
+      "linkTarjet": "#",
+      "headline": "Bachas de cócina",
+      "texAlignment": "center",
+      "blockClass": "bloque-cat"
+    }
+  },
+  "flex-layout.row#bazar-cocina":{
+    "children":[
+      "info-card#bazar-cocina"
+    ]
+  },
+  "info-card#bazar-cocina":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "none",
+      "imageUrl": "assets/imagenes/bazar-cocina.jpg",
+      "linkTarjet": "#",
+      "headline": "Bazar y cócina",
+      "texAlignment": "center",
+      "blockClass": "bloque-cat"
+    }
+  },
+  "flex-layout.col#col-cat2":{
+    "children":[
+      "flex-layout.row#muebles",
+      "flex-layout.row#pinturas",
+      "flex-layout.row#sanitarios"
+    ]
+  },
+  "flex-layout.row#muebles":{
+    "children":[
+      "info-card#muebles"
+    ]
+  },
+  "info-card#muebles":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/imagenes/muebles.jpg",
+      "callToActionMode": "none",
+      "linkTarjet": "#",
+      "headline": "Muebles para el hogar",
+      "texAlignment": "center",
+      "blockClass": "bloque-cat"
+    }
+  },
+  "flex-layout.row#pinturas":{
+    "children":[
+      "info-card#pinturas"
+    ]
+  },
+  "info-card#pinturas":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/imagenes/pinturas.jpg",
+      "callToActionMode": "none",
+      "linkTarjet": "#",
+      "headline": "Pinturas",
+      "texAlignment": "center",
+      "blockClass": "bloque-cat"
+    }
+  },
+  "flex-layout.row#sanitarios":{
+    "children":[
+      "info-card#sanitarios"
+    ]
+  },
+  "info-card#sanitarios":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "assets/imagenes/sanitarios.jpg",
+      "callToActionMode": "none",
+      "linkTarjet": "#",
+      "headline": "Sanitarios",
+      "texAlignment": "center",
+      "blockClass": "bloque-cat"
+    }
+  },
+  "rich-text#shelf-precios": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "text": "## Conseguí los mejores precios",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-precios": {
+    "children": ["list-context.product-list#precios"]
+  },
+  "list-context.product-list#precios": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#precios-productos"]
+  },
+  "slider-layout#precios-productos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
     }
   }
 }

@@ -65,6 +65,33 @@
   margin: 1rem 0;
 }
 
+.infoCardContainer--bloque-cat{
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+}
+
+.infoCardContainer--bloque-cat:hover{
+  transform: scale(0.5px);
+  color: rgba(255, 255, 255, 0.123);
+  overflow: hidden;
+}
+
+.infoCardHeadline--bloque-cat{
+  color: white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color:black;
+}
+
+.notificationBarInner{
+  background-color: rgb(97, 97, 97);
+}
+
+.notificationContent{
+  color: white;
+  text-decoration: none;
+  
+}
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
