@@ -16,7 +16,8 @@
       "rich-text#deal1"
     ],
     "props":{
-      "blockClass": "deal1"
+      "blockClass": "deal1",
+      "preventHorizontalStretch": true
     }
   },
   "image#deal1": {
@@ -38,7 +39,8 @@
       "rich-text#deal2"
     ],
     "props":{
-      "blockClass": "deal2"
+      "blockClass": "deal2",
+      "preventHorizontalStretch": true
     }
   },
   "image#deal2": {
@@ -60,13 +62,14 @@
       "rich-text#deal3"
     ],
     "props":{
-      "blockClass": "deal3"
+      "blockClass": "deal3",
+      "preventHorizontalStretch": true
     }
   },
   "image#deal3": {
     "props": {
       "src": "assets/icons/dollar-sign-solid.svg",
-      "maxHeight": "24px",
+      "maxHeight": 24,
       "blockClass": "image-deal"
     }
   },

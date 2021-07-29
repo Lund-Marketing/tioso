@@ -1,18 +1,18 @@
 {
-  "footer-layout.mobile": {
+  "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-1-mobile",
+      "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer"
     ]
   },
-  "flex-layout.row#footer-1-mobile": {
+  "flex-layout.row#footer-1-desktop": {
     "children": [
       "flex-layout.col#col-1",
       "flex-layout.col#col-2",
       "flex-layout.col#col-3"
     ],
     "props": {
-      "blockClass": "footer-mobile",
+      "blockClass": "footer-desktop",
       "paddingTop": 6,
       "paddingBottom": 3
     }
@@ -26,7 +26,11 @@
   "flex-layout.row#logo-tioso":{
     "children":[
       "logo#tioso-footer"
-    ]
+    ],
+    "props":{
+      "textPosition": "left",
+      "preventHorizontalStretch": true
+    }
   },
   "logo#tioso-footer":{
     "props":{
@@ -60,7 +64,7 @@
   "vtex.menu@2.x:menu#menu-footer":{
     "props":{
       "orientation": "vertical",
-      "blockClass": "menu-footer-mobile"
+      "blockClass": "menu-footer-desktop"
     },
     "children":[
       "menu-item#cocina",
@@ -206,7 +210,7 @@
       "flex-layout.row#redes-sociales"
     ],
     "props":{
-      "blockClass": "info-footer-mobile"
+      "blockClass": "info-footer-desktop"
     }
   },
   "flex-layout.row#info-footer":{
@@ -217,7 +221,7 @@
   "vtex.menu@2.x:menu#info-footer":{
     "props":{
       "orientation":"vertical",
-      "blockClass":"info-footer-mobile"
+      "blockClass":"info-footer-desktop"
     },
     "children":[
       "menu-item#como-comprar",

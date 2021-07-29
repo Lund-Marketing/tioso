@@ -41,12 +41,12 @@
   font-size: 14px;
 }
 .flexRow--deals {
-  background-color: #a7afbd;
-  padding: 14px 0px;
+  background-color: #c3c5c7;
+  padding: 25px 0px 25px;
 }
 
 .flexRow--deals .stretchChildrenWidth {
-  align-items: center;
+  align-items:center;
 }
 
 .flexRow--deals .flexCol {
@@ -91,4 +91,24 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRowContent--footer-desktop{
+  background: #dadada;
+  padding: 50px;
+}
+
+.flexRowContent--deal1{
+  justify-content: center;
+}
+.flexRowContent--deal2{
+  justify-content: center;
+}
+.flexRowContent--deal3{
+  justify-content: center;
+}
+
+.imageElement--image-deal{
+  font-size: 40px;
+  margin-right: 5px;
 }

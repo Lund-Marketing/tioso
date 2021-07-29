@@ -1,9 +1,8 @@
 .notificationBarContainer {
   background-color: #e6f1e6;
-  color: #03034e;
   font-weight: 700;
   font-size: 12px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .infoCardContainer--info-card-home {
@@ -69,22 +68,39 @@
   width: 300px;
   height: 200px;
   margin: 15px;
+  transition: ease 0.5s;
+  position: relative;
+}
+
+.infoCardContainer--bloque-cat::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(70, 69, 69, 0.6);
 }
 
 .infoCardContainer--bloque-cat:hover{
-  transform: scale(0.5px);
-  color: rgba(255, 255, 255, 0.123);
+  transition: ease 0.5s;
+  transform: scale(0.95);
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .infoCardHeadline--bloque-cat{
-  color: white;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color:black;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  margin-bottom: 50px;
+  top: 29%
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:black; */
 }
 
 .notificationBarInner{
-  background-color: rgb(97, 97, 97);
+  background-color: rgb(124, 124, 124);
 }
 
 .notificationContent{
@@ -92,6 +108,18 @@
   text-decoration: none;
   
 }
+
+.imageElement--logoLund{
+  padding: 10px;  
+}
+
+.logoContainer--logo-facebook{
+  min-width: 10px !important;
+  width: 50px !important;
+  padding: 11px 0 0 0;
+}
+
+
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
@@ -138,3 +166,4 @@
   font-weight: bold;
   font-size: 30px;
 }
+

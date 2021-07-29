@@ -1,63 +1,32 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": {
-    "children": [
-      "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-logo-lund"
-    ]
-  },
-  "flex-layout.row#footer-1-desktop": {
-    "children": [
-      "flex-layout.col#col-1"
-    ],
-    "props": {
-      "blockClass": "menu-row",
-      "paddingTop": 6,
-      "paddingBottom": 3
-    }
-  },
-  "flex-layout.col#col-1":{
-    "children":[
-      "flex-layout.row#logo-tioso",
-      "flex-layout.row#contacto-footer"
-    ]
-  },
-  "flex-layout.row#logo-tioso":{
-    "children":[
-      "logo#tioso-footer"
-    ]
-  },
-  "logo#tioso-footer":{
-    "props":{
-      "url": "assets/logo/logo-tioso.jpg",
-      "href":"#",
-      "width": 100
-    }
-  },
-  "flex-layout.row#contacto-footer":{
-    "children":[
-      "rich-text#contacto-footer"
-    ]
-  },
-  "rich-text#contacto-footer":{
-    "props":{
-      "text": "MONSEÑOR BUFANO 3079\nSan Justo, Buenos Aires\n\nTel: (011) 2150-0122\ncrm@tiosohogar.com"
-    }
-  },
-  "flex-layout.row#footer-2-logo-lund":{
-    "children":[
-      "logo#lund-footer"
-    ]
-  },
-  "logo#lund-footer":{
-    "props":{
-      "url": "assets/logo/lund-logo-test.png",
-      "href":"https://lundmarketing.io",
-      "width": 70
-
+    "footer": {
+      "blocks": [
+        "footer-layout.desktop",
+        "footer-layout.mobile"
+      ]
+    },
+    "flex-layout.row#footer": {
+      "children": [
+        "image#vtexlogo",
+        "image#lund"
+      ],
+      "props": {
+        "blockClass":"footer-logo-lund",
+        "width":"0%"
+      }
+    },
+    "image#vtexlogo": {
+      "props": {
+        "maxWidth":60,
+        "src": "assets/logo/footer_icons_vtex.png",
+        "blockClass":"logoLund"
+      }
+    },
+    "image#lund": {
+      "props": {
+        "maxWidth": 80,
+        "src": "assets/logo/lund-logo-test.png",
+        "blockClass":"logoLund"
+      }
     }
   }
-  
-}

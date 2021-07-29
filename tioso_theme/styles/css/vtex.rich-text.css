@@ -67,6 +67,30 @@
   font-weight: 700;
 }
 
+.container--btn-arrepentimiento{
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper--btn-arrepentimiento{
+  border: 1px solid black;
+  width: 210px;
+  border-radius: 5px;
+  transition: ease 0.5s;
+  
+}
+.wrapper--btn-arrepentimiento:hover{
+  background: black;
+  color: white;
+  border: 1px solid white;
+  transition: ease 0.5s;
+}
+
+.paragraph--btn-arrepentimiento{
+ text-align: center;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
