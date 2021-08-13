@@ -80,6 +80,7 @@
     left: 0;
     right: 0;
     background-color: rgba(70, 69, 69, 0.6);
+    cursor: pointer;
 }
 
 .infoCardContainer--bloque-cat:hover{

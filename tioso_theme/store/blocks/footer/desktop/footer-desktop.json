@@ -28,8 +28,8 @@
       "logo#tioso-footer"
     ],
     "props":{
-      "textPosition": "left",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "blockClass": "logo-tioso-footer"
     }
   },
   "logo#tioso-footer":{

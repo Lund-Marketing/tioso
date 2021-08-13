@@ -75,20 +75,28 @@
 }
 
 .wrapper--btn-arrepentimiento{
-  border: 1px solid rgb(49, 49, 49);
+  border-bottom: 4px solid rgb(49, 49, 49);
+  background-color: rgba(167, 167, 167, 0.521);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   width: 210px;
-  border-radius: 5px;
+  height: 41px;
   transition: ease 0.5s;
   
 }
 .wrapper--btn-arrepentimiento:hover{
-  background: rgb(49, 49, 49);
+  background: rgba(49, 49, 49, 0.432);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 4px solid rgb(88, 88, 88);
   color: white;
+  height: 41px;
   transition: ease 0.5s;
 }
 
 .paragraph--btn-arrepentimiento{
  text-align: center;
+ line-height: 0.5;
 }
 
 @media only screen and (min-width: 640px) {
