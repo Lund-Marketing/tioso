@@ -3,7 +3,7 @@
     "blocks": [
       "list-context.image-list#demo",
       "flex-layout.row#deals",
-      /* "flex-layout.row#shelf-ofertas" */,
+      "flex-layout.row#shelf-ofertas",
       "rich-text#shelf-ofertas",
       "flex-layout.row#categorias",
       /* "flex-layout.row#shelf-precios", */
@@ -49,7 +49,7 @@
     "children": ["list-context.product-list#ofertas"]
   },
   "list-context.product-list#ofertas": {
-    /* "blocks": ["product-summary.shelf"], */
+    "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#ofertas-productos"]
   },
   "slider-layout#ofertas-productos": {
