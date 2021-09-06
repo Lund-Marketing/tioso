@@ -3,8 +3,9 @@
     "children": [
       "stack-layout#prodsum",
       "product-summary-name",
+      "link-seller",
       "flex-layout.col#productRating",
-      "product-summary-space",
+      /* "product-summary-space", */
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "product-installments#summary",

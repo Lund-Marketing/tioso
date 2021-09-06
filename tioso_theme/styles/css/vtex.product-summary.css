@@ -35,6 +35,8 @@
 
 .imageContainer {
   text-align: center;
+  background: rgb(51, 51, 51);
+  border-radius: 5px
 }
 
 .image {

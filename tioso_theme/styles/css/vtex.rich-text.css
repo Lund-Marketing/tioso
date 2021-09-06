@@ -1,5 +1,5 @@
 .container--deals {
-  color: #ffffff;
+  color: white;
   text-align: center;
   justify-content: center;
 }
@@ -97,6 +97,36 @@
 .paragraph--btn-arrepentimiento{
  text-align: center;
  line-height: 0.5;
+}
+
+/* about us */
+
+.container--about{
+  text-align: center;
+  width: 100%;
+}
+
+.container--title{
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper--about{
+  width: 1000px;
+}
+
+.wrapper--title{
+  width: 500px;
+}
+
+.headingLevel1--title{
+  text-align: center;
+  width: 500px;
+}
+
+.paragraph--about{
+  text-align: center;
+  width: 1000px;
 }
 
 @media only screen and (min-width: 640px) {

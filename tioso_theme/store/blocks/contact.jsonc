@@ -22,7 +22,7 @@
   },
   "rich-text#contact-us": {
     "props": {
-      "text": "## Contact Us"
+      "text": "## Contactanos!"
     }
   },
 
@@ -50,7 +50,7 @@
   },
   "rich-text#success-submit": {
     "props": {
-      "text": "Thanks for reaching out! We will come back shortly.",
+      "text": "Gracias por escribirnos, te responderemos a la brevedad.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
@@ -79,7 +79,7 @@
 
   "form-submit#contact": {
     "props": {
-      "label": "Submit"
+      "label": "Enviar"
     }
   }
 }

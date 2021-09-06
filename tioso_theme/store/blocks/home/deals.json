@@ -45,7 +45,7 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
+      "src": "assets/icons/shipping-fast-solid.svg",
       "maxHeight": "24px",
       "blockClass": "image-deal"
     }

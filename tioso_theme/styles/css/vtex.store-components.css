@@ -110,6 +110,15 @@
   
 }
 
+.imageElement--image-deal{
+  color: white;
+  width: 70px;
+}
+
+.imageElement--image-deal-fast{
+  margin-left: 0px;
+}
+
 .imageElement--logoLund{
   padding: 10px;  
 }
@@ -118,6 +127,10 @@
   min-width: 10px !important;
   width: 50px !important;
   padding: 11px 0 0 0;
+}
+
+.logoContainer{
+  text-align: left;
 }
 
 

@@ -4,110 +4,110 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#cocina",
+      "menu-item#baño",
+      "menu-item#mas-categorias"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#cocina": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-cocina",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/cocina/",
         "noFollow": false,
         "tagTitle": "Cocina",
         "text": "Cocina"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-cocina"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-cocina": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-cocina"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-cocina": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-cocina-bachas",
+      "menu-item#category-cocina-accesorios",
+      "menu-item#category-cocina-herramientas"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-cocina-bachas": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-cocina-bachas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/cocina/bachas/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Bachas",
+        "text": "Bachas"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-cocina-accesorios": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-cocina-accesorios",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/cocina/accesorios/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-cocina-herramientas": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-cocina-herramientas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/cocina/herramientas/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Herramientas",
+        "text": "Herramientas"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-baño": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-baño",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/baño/",
         "noFollow": false,
         "tagTitle": "Baño",
         "text": "Baño"
       }
     }
   },
-  "menu-item#more": {
+  "menu-item#mas-categorias": {
     "props": {
-      "id": "menu-item-custom-sale",
+      "id": "menu-item-mas-categorias",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -120,69 +120,69 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#mas-categorias"
     ]
   },
-  "vtex.menu@2.x:submenu#more": {
+  "vtex.menu@2.x:submenu#mas-categorias": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu-more"
+      "flex-layout.row#menu-mas-categorias"
     ]
   },
-  "flex-layout.row#menu-more": {
+  "flex-layout.row#menu-mas-categorias": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-mas-categorias-1",
+      "flex-layout.col#menu-mas-categorias-2"
     ]
   },
-  "flex-layout.col#menu-more-1": {
+  "flex-layout.col#menu-mas-categorias-1": {
     "children": [
-      "vtex.menu@2.x:menu#more"
+      "vtex.menu@2.x:menu#mas-categorias"
     ]
   },
-  "flex-layout.col#menu-more-2": {
+  "flex-layout.col#menu-mas-categorias-2": {
     "children": [
 
     ]
   },
-  "vtex.menu@2.x:menu#more": {
+  "vtex.menu@2.x:menu#mas-categorias": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#sobre-nosotros",
+      "menu-item#contacto"
     ]
   },
-  "menu-item#about-us": {
+  "menu-item#sobre-nosotros": {
     "props": {
-      "id": "menu-item-about-us",
+      "id": "menu-item-sobre-nosotros",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/sobre-nosotros",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "Sobre nosotros",
+        "text": "Sobre nosotros"
       }
     }
   },
-  "menu-item#faq": {
+  "menu-item#contacto": {
     "props": {
-      "id": "menu-item-faq",
+      "id": "menu-item-contacto",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/faq",
+        "href": "/contacto",
         "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
+        "tagTitle": "Contacto",
+        "text": "Contacto"
       }
     }
   },
