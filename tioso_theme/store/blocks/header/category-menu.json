@@ -6,7 +6,8 @@
     "children": [
       "menu-item#cocina",
       "menu-item#baño",
-      "menu-item#mas-categorias"
+      "menu-item#mas-categorias",
+      "menu-item#sobre-nosotros"
     ]
   },
   "menu-item#cocina": {
@@ -102,7 +103,8 @@
         "noFollow": false,
         "tagTitle": "Baño",
         "text": "Baño"
-      }
+      },
+      "blockClass": "category-menu"
     }
   },
   "menu-item#mas-categorias": {
@@ -125,7 +127,7 @@
   },
   "vtex.menu@2.x:submenu#mas-categorias": {
     "props": {
-      "width": "100%"
+      "width": "30%"
     },
     "children": [
       "flex-layout.row#menu-mas-categorias"
@@ -152,11 +154,111 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#sobre-nosotros",
-      "menu-item#contacto"
+      "menu-item#pinturas",
+      "menu-item#muebles",
+      "menu-item#pisos-rev",
+      "menu-item#bombas-tanques",
+      "menu-item#hornos",
+      "menu-item#herramientas"
     ]
+  }, 
+  "menu-item#pinturas": {
+    "props": {
+        "id": "menu-item-pinturas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/pinturería",
+            "noFollow": false,
+            "tagTitle": "Pinturería",
+            "text": "Pinturería"
+        },
+        "blockClass":"category-menu"
+    }
   },
-  "menu-item#sobre-nosotros": {
+  "menu-item#muebles": {
+    "props": {
+        "id": "menu-item-muebles",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/muebles-para-el-hogar",
+            "noFollow": false,
+            "tagTitle": "Muebles para el hogar",
+            "text": "Muebles para el hogar"
+        },
+        "blockClass":"category-menu"
+    }
+  },
+  "menu-item#pisos-rev": {
+    "props": {
+        "id": "menu-item-pisos-rev",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/pisos-revestimientos",
+            "noFollow": false,
+            "tagTitle": "Pisos y Revestimientos",
+            "text": "Pisos y Revestimientos"
+        },
+        "blockClass":"category-menu"
+    }
+  },
+  "menu-item#bombas-tanques": {
+    "props": {
+        "id": "menu-item-bombas-tanques",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/bombas-y-tanques",
+            "noFollow": false,
+            "tagTitle": "Bombas y Tanques",
+            "text": "Bombas y Tanques"
+        },
+        "blockClass":"category-menu"
+    }
+  },
+  "menu-item#hornos": {
+    "props": {
+        "id": "menu-item-hornos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/hornos-parrillas-accesorios",
+            "noFollow": false,
+            "tagTitle": "Hornos, Parrillas y Accesorios",
+            "text": "Hornos, Parrillas y Accesorios"
+        },
+        "blockClass":"category-menu"
+    }
+  },
+  "menu-item#herramientas": {
+    "props": {
+        "id": "menu-item-herramientas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+            "type": "internal",
+            "href": "/herramientas",
+            "noFollow": false,
+            "tagTitle": "Herramientas",
+            "text": "Herramientas"
+        },
+        "blockClass":"category-menu"
+    }
+  },
+  "menu-item#sobre-nosotros":{
     "props": {
       "id": "menu-item-sobre-nosotros",
       "type": "custom",
@@ -164,40 +266,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/sobre-nosotros",
+        "href": "/pages/about-us",
         "noFollow": true,
-        "tagTitle": "Sobre nosotros",
+        "tagTitle": "about-us",
         "text": "Sobre nosotros"
-      }
-    }
-  },
-  "menu-item#contacto": {
-    "props": {
-      "id": "menu-item-contacto",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contacto",
-        "noFollow": true,
-        "tagTitle": "Contacto",
-        "text": "Contacto"
-      }
-    }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
       }
     }
   }

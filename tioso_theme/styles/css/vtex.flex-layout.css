@@ -46,7 +46,7 @@
 }
 
 .flexRow--deals .stretchChildrenWidth {
-  align-items:center;
+  align-items: center;
 }
 
 .flexRow--deals .flexCol {
@@ -111,4 +111,19 @@
 .imageElement--image-deal{
   font-size: 40px;
   margin-right: 5px;
+}
+
+@media (max-width: 640px){
+  .flexRowContent--deal1{
+    justify-content: center;
+  }
+  .flexRowContent--deal2{
+    justify-content: center;
+  }
+  .flexRowContent--deal3{
+    justify-content: center;
+  }
+  .paragraph--deals{
+    text-align: center;
+  }
 }

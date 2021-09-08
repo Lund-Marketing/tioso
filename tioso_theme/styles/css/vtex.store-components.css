@@ -126,7 +126,11 @@
 .logoContainer--logo-facebook{
   min-width: 10px !important;
   width: 50px !important;
-  padding: 11px 0 0 0;
+  padding: 11px 0 0 0px;
+}
+
+.logoImage--logo-facebook{
+  margin-left: 20px;
 }
 
 .logoContainer{
@@ -155,6 +159,14 @@
     margin-bottom: 0px;
     max-height: 600px;
   }
+
+}
+
+@media(max-width: 480px) {
+  .logoContainer--logo-instragram{
+    padding-left: 0px;
+  }
+
 }
 
 .productImagesContainer--quickview .carouselContainer {

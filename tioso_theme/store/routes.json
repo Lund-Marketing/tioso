@@ -1,11 +1,20 @@
 {
   "store.custom#about-us": {
-    "path": "/about-us"
+    "path": "/pages/about-us"
   },
   "store.custom#faq": {
-    "path": "/faq"
+    "path": "/pages/faq"
   },
   "store.custom#contact-us": {
-    "path": "/contacto"
+    "path": "/pages/contact-us"
+  },
+  "store.custom#arrepentimiento": {
+    "path": "/pages/arrepentimiento"
+  },
+  "store.custom#como-comprar": {
+    "path": "/pages/como-comprar"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/pages/terminos-y-condiciones"
   }
 }

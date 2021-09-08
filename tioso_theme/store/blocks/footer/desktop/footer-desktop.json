@@ -227,7 +227,7 @@
       "menu-item#como-comprar",
       "menu-item#terminos-y-condiciones",
       "menu-item#contacto",
-      "flex-layout.row#boton-de-arrepentimiento"
+      "menu-item#boton-de-arrepentimiento"
     ]
   },
     "menu-item#como-comprar":{
@@ -238,7 +238,7 @@
           "highlight": false,
           "itemProps": {
               "type": "internal",
-              "href": "/como-comprar",
+              "href": "pages/como-comprar",
               "noFollow": false,
               "tagTitle": "Cómo Comprar",
               "text": "Cómo Comprar"
@@ -254,7 +254,7 @@
         "highlight": false,
         "itemProps": {
             "type": "internal",
-            "href": "/terminos-y-condiciones",
+            "href": "pages/terminos-y-condiciones",
             "noFollow": false,
             "tagTitle": "Terminos y Condiciones",
             "text": "Terminos y Condiciones"
@@ -270,7 +270,7 @@
         "highlight": false,
         "itemProps": {
             "type": "internal",
-            "href": "/contacto",
+            "href": "pages/contact-us",
             "noFollow": false,
             "tagTitle": "Contacto",
             "text": "Contacto"
@@ -278,16 +278,20 @@
         "blockClass":"footerLinkItem"
     }
   },
-  "flex-layout.row#boton-de-arrepentimiento":{
-    "children":[
-      "rich-text#boton-de-arrepentimiento"
-    ]
-  },
-  "rich-text#boton-de-arrepentimiento":{
+  "menu-item#boton-de-arrepentimiento":{
     "props":{
-      "text": "Botón de Arrepentimiento",
+      "id": "menu-item-arrepentimiento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
       "blockClass":"btn-arrepentimiento",
-      "textPosition": "center"
+      "itemProps": {
+        "type": "internal",
+        "href": "/pages/arrepentimiento",
+        "noFollow": false,
+        "tagTitle": "Botón de arrepentimiento",
+        "text": "Botón de arrepentimiento"
+      }
     }
   },
   "flex-layout.row#redes-sociales":{
@@ -305,14 +309,14 @@
   "logo#logo-facebook":{
     "props":{
       "url": "assets/social/facebook-logo.svg",
-      "width": 30,
+      "width": 60,
       "blockClass": "logo-facebook"
     }
   },
   "logo#logo-instagram":{
     "props":{
       "url": "assets/social/instagram-logo.svg",
-      "width": 30,
+      "width": 80,
       "blockClass": "logo-instragram"
     }
   }

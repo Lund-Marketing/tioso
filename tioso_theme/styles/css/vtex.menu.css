@@ -1,0 +1,52 @@
+.menuItem--btn-arrepentimiento--isOpen{
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background: transparent!important;
+  }
+
+  .menuItem--btn-arrepentimiento--isClosed{
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background: transparent!important;
+  }
+  
+  .styledLinkContainer--btn-arrepentimiento{
+    border-bottom: 4px solid rgb(49, 49, 49);
+    background-color: rgba(167, 167, 167, 0.521);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 210px;
+    height: 41px;
+    transition: ease 0.5s;
+    padding: 15px;
+    
+  }
+  .styledLinkContainer--btn-arrepentimiento:hover{
+    background: rgba(49, 49, 49, 0.432);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 4px solid rgb(88, 88, 88);
+    color: white;
+    height: 41px;
+    transition: ease 0.5s;
+  }
+  
+  .styledLinkContent--btn-arrepentimiento{
+   text-align: center;
+   line-height: 0.5;
+  }
+
+  .menuItem{
+    border-radius: 3px;
+    transition: ease 0.3s;
+  }
+
+  .menuItem:hover{
+    border-radius: 3px;
+    background: rgb(165, 165, 165);
+    transition: ease 0.3s;
+  }
