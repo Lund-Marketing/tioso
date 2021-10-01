@@ -108,9 +108,18 @@
   justify-content: center;
 }
 
+.flexRowContent--social-network{
+  margin-top: 20px;
+}
+
 .imageElement--image-deal{
   font-size: 40px;
   margin-right: 5px;
+}
+
+.flexRowContent--footer-mobile{
+  background: #dadada;
+  padding: 30px;
 }
 
 @media (max-width: 640px){

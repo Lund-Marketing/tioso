@@ -25,13 +25,13 @@
 
   "rich-text#title-about-us": {
     "props": {
-      "text":"# Tioso Hogar.",
+      "text":"# Sobre Nosotros.",
       "blockClass": "title"
     }
   },
   "rich-text#about-us": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "text": "En el año 2011 en Tioso decidimos emprender un camino en el que el crecimiento y los desafíos nos motoricen y nos permitan llegar a todas las casas del país.\n Comenzamos desarrollándonos en el e-commerce cuando aún era un lugar chiquito y nuevo. Entendiendo la necesidad de la constante transformación digital y, luego de un trabajo colectivo de nuestro equipo, logramos posicionarnos como referentes en la venta de artículos para el hogar, sanitarios, griferías y amoblamientos.\n En Tioso comercializamos nuestros variados productos a todo el país, asegurando el mejor precio y la mejor atención. Actualmente contamos con un local en San Justo y tenemos grandes expectativas de seguir creciendo.\n Luego de estos primeros diez años, buscamos seguir innovando y afianzamos nuestro compromiso de seguir brindando un servicio al cliente de calidad y excelencia.\n MISIÓN\n Nuestra misión es continuar trabajando para ser innovadores y sostener una empresa rentable y confiable \n  VISIÓN\n Nuestra visión es ser los principales referentes del rubro a nivel nacional e internacional.\nVALORES\nNuestros valores son el servicio, el compromiso, la confianza y la innovación.",
       "blockClass": "about"
     }
   }

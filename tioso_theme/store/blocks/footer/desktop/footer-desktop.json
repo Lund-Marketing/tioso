@@ -34,8 +34,8 @@
   },
   "logo#tioso-footer":{
     "props":{
-      "url": "assets/logo/logo-tioso.jpg",
-      "width": 100
+      "url": "assets/logo/logo-tioso.png",
+      "width": 120
     }
   },
   "flex-layout.row#contacto-footer":{
@@ -308,14 +308,14 @@
   },
   "logo#logo-facebook":{
     "props":{
-      "url": "assets/social/facebook-logo.svg",
+      "url": "assets/social/facebook logo.svg",
       "width": 60,
       "blockClass": "logo-facebook"
     }
   },
   "logo#logo-instagram":{
     "props":{
-      "url": "assets/social/instagram-logo.svg",
+      "url": "assets/social/instagram logo.svg",
       "width": 80,
       "blockClass": "logo-instragram"
     }

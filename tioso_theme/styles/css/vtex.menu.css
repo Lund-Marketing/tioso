@@ -47,6 +47,6 @@
 
   .menuItem:hover{
     border-radius: 3px;
-    background: rgb(165, 165, 165);
+    background: #a5a5a5;
     transition: ease 0.3s;
   }

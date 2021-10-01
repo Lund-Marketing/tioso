@@ -76,7 +76,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo/logo-tioso.jpg",
+      "url": "assets/logo/tiosohogar.png",
       "width": "100"
     }
   },
@@ -120,7 +120,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo/logo-tioso.jpg",
+      "url": "assets/logo/tiosohogar.png",
       "width": "70"
     }
   }

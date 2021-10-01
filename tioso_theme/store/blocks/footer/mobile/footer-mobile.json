@@ -38,8 +38,8 @@
   },
   "logo#tioso-footer":{
     "props":{
-      "url": "assets/logo/logo-tioso.jpg",
-      "width": 100
+      "url": "assets/logo/logo-tioso.png",
+      "width": 120
     }
   },
   "flex-layout.row#contacto-footer":{
@@ -295,16 +295,18 @@
   },
   "logo#logo-facebook":{
     "props":{
-      "url": "assets/social/facebook-logo.svg",
-      "width": 30,
-      "blockClass": "logo-facebook"
+      "url": "assets/social/facebook logo.svg",
+      "width": 35,
+      "blockClass": "logo-facebook",
+      "href": "https://www.facebook.com/tioso.hogar"
     }
   },
   "logo#logo-instagram":{
     "props":{
-      "url": "assets/social/instagram-logo.svg",
-      "width": 30,
-      "blockClass": "logo-instragram"
+      "url": "assets/social/instagram logo outline.svg ", 
+      "width": 35,
+      "blockClass": "logo-instragram",
+      "href": "https://www.instagram.com/tiosohogar/?hl=es-la"
     }
   }
  

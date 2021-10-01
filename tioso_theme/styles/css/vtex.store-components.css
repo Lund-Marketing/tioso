@@ -133,6 +133,10 @@
   margin-left: 20px;
 }
 
+.logoContainer--logo-facebook:hover{
+  color: black;
+}
+
 .logoContainer{
   text-align: left;
 }
@@ -160,11 +164,12 @@
     max-height: 600px;
   }
 
+  
 }
 
 @media(max-width: 480px) {
   .logoContainer--logo-instragram{
-    padding-left: 0px;
+    padding-left: 20px;
   }
 
 }
