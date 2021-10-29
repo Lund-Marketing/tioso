@@ -16,7 +16,8 @@
   },
   "rich-text#specifications": {
     "props": {
-      "text": "##### Product Specifications"
+      "horizontalAlign": "center",
+      "text": "##### Especificaciones del producto"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -175,10 +176,10 @@
   "share#default": {
     "props": {
       "social": {
-        "Facebook": true,
-        "WhatsApp": true,
+        "Facebook": false,
+        "WhatsApp": false,
         "Twitter": false,
-        "Pinterest": true
+        "Pinterest": false
       }
     }
   }
