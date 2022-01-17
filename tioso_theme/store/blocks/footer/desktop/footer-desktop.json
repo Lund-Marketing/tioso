@@ -224,27 +224,10 @@
       "blockClass":"info-footer-desktop"
     },
     "children":[
-      "menu-item#como-comprar",
       "menu-item#terminos-y-condiciones",
       "menu-item#contacto",
       "menu-item#boton-de-arrepentimiento"
     ]
-  },
-    "menu-item#como-comprar":{
-      "props": {
-          "id": "menu-item-como-comprar",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-              "type": "internal",
-              "href": "pages/como-comprar",
-              "noFollow": false,
-              "tagTitle": "Cómo Comprar",
-              "text": "Cómo Comprar"
-          },
-          "blockClass":"footerLinkItem"
-      }
   },
   "menu-item#terminos-y-condiciones":{
     "props": {

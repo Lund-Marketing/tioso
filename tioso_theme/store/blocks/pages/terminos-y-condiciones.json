@@ -1,7 +1,164 @@
 {
     "store.custom#terminos-y-condiciones":{
         "children":[
-
+            "flex-layout.row#terminos-condiciones"
         ]
+    },
+    "flex-layout.row#terminos-condiciones":{
+        "children":[
+            "flex-layout.col#terminos-y-condiciones"
+        ]
+    },
+    "flex-layout.col#terminos-y-condiciones":{
+        "children":[
+            "rich-text#titulo-terminos-condiciones",
+            "rich-text#info-terminos-condiciones",
+            "rich-text#definiciones",
+            "rich-text#informacion-producto",
+            "rich-text#precios",
+            "rich-text#formalizacion",
+            "rich-text#plazos-entregas",
+            "rich-text#garantias",
+            "rich-text#desistimiento",
+            "rich-text#cancelacion",
+            "rich-text#responsabilidad",
+            "rich-text#condiciones-pago",
+            "rich-text#caracter-personal",
+            "rich-text#legislacion",
+            "rich-text#inconvenientes",
+            "rich-text#general"
+        ],
+        "props": {
+            "blockclass": "terminosColumn",
+            "preventVerticalStretch": true,
+            "horizontalAlign": "center",
+            "width": 80
+        }
+    },
+    "rich-text#titulo-terminos-condiciones":{
+        "props":{
+            "text": "# Términos y Condiciones de Compra\n",
+            "blockclass": "tituloTyC"
+        }
+    },
+    "rich-text#info-terminos-condiciones":{
+        "props":{
+            "text": "**ACEPTACIÓN DE LAS CONDICIONES PARTICULARES DE COMPRA**\n ¡Bienvenido!\n A través de nuestros canales de contacto (teléfonos: 2150 0122 / 6842 0700, WhatsApp 1527216001, correo electrónico: crm@tiosohogar.com, redes sociales: https://www.facebook.com/tioso.hogar, https://www.instagram.com/tiosohogar/ y la presente Página Web) o bien concurriendo en el local ubicado en Monseñor Bufano 3079, localidad de San Justo, partido de la Matanza podrá adquirir los productos de Sanitarios TH S.A. Nuestra Empresa se dedica a satisfacer clientes en cuanto a confort y diseño desde hace más de 5 años. La adquisición de productos comercializados por nuestra empresa por los canales habilitados implica asumirlos  como  Clientes de Sanitarios  TH S.A , desde ese momento cada cliente consiente y autoriza expresamente, de manera libre y voluntaria, su conocimiento y adhesión  a los términos y condiciones , Política de Privacidad y de Cookies, , así como a las presentes Condiciones Particulares de Venta, que regirán nuestra relación comercial en adelante y estarán disponibles para su almacenamiento e impresión una vez que el cliente formalice su  pedido con nuestra Compañía .\n ",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#definiciones":{
+        "props":{
+            "text": "**II. DEFINICIONES**\n\"Condiciones de Compra\": son todas las condiciones de compra en función de las que se ofertan los Productos, que constituyen el contrato entre el Vendedor y el Usuario.\n * \"Vendedor\": El proveedor de los productos puestos a la venta; Sanitarios TH S.A Grupo TIOSO HOGAR, Nuestra Compañía\n * \"Cliente o Usuario\": es el comprador del Producto, y como tal se entiende la persona física o jurídica que realiza la compra.\n * \"Producto\": relación de productos comercializados por el Vendedor por cualquiera de sus medios disponibles.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#informacion-producto":{
+        "props":{
+            "text": "**III. INFORMACIÓN SOBRE EL PRODUCTO.** \n Los productos de Sanitarios TH S.A a la venta son en su mayoría productos sanitarios y en general para el hogar y confort de los usuarios, específicos para mejorar la vida de las personas siempre conforme la legislación aplicable y las presentes Condiciones Particulares de Compra.\n Sanitarios TH emplea sus mejores esfuerzos para ofrecerte la información sobre la forma de adquirir nuestros productos y sus precios de forma exacta, veraz y actualizada, sin errores tipográficos. No obstante lo anterior, no podemos descartar la existencia de errores de estas características, totalmente ajenos a nuestra voluntad, por lo que nos comprometemos a, en caso de detectarlos, proceder inmediatamente a su corrección.\n En el eventual e hipotético caso de que un error tipográfico afectará al precio, descripción y/o disponibilidad del producto, y si el cliente hubiera realizado un pedido en función de un error de este tipo, Sanitarios TH S.A procederá de inmediato a su comunicación y tendrá derecho a anular la compra, sin costo alguno para el cliente garantizando el reembolso del precio pagado.\n Sanitarios TH S.A se reserva el derecho a modificar en cualquier momento la relación de productos, precios y/o servicios contenidos en las redes que utiliza como medios de comunicación de oferta, así como sus condiciones de adquisición y entrega, bajo su exclusiva responsabilidad. No obstante lo anterior, tales modificaciones no afectarán a los pedidos que ya se encuentren en curso. Asimismo, Sanitarios TH S.A se reserva la facultad de realizar cualquier modificación que resulte útil o devenga necesaria en el diseño de envases, mensajes publicitarios o informativos, instrucciones y descripciones que figuren en los mismos, cumpliendo en todo momento con la legislación vigente que resulte de aplicación.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#precios":{
+        "props":{
+            "text": "**IV. PRECIOS** \n Los precios de los Productos ofertados por cualquiera de los medios serán los que figuren en el mismo en el momento de que se formalice el pedido, estarán expresados en pesos y serán totales finales; es decir, el Impuesto sobre el Valor Añadido (IVA), así como cualquier otro impuesto, tasa o gravamen que pudiera resultar de aplicación.\n Sanitarios TH S.A se reserva la facultad de modificar sus precios en cualquier momento, por lo que el cliente deberá verificar los mismos con carácter previo a la formulación de cada pedido que nos solicite.\n A tales importes se les deberá sumar los gastos de envío, por lo cual el cliente deberá consultar el valor del mismo antes de ofertar, SANITARIOS TH S.A, no posee logística propia, no obstante, la Empresa se reserva el Derecho de ofertar con la inclusión del envío gratis, en estos casos este gasto correrá por la Compañía salvo que el cliente opte por una determinada Empresa de envíos en cuyo caso será este último quien asuma ese costo\nEl pago del Producto se podrá realizar a través de tarjeta de crédito, efectivo o débito. En el caso de compras con tarjeta de crédito o débito será exigible toda la documentación que acredite la identidad del titular de la tarjeta de crédito o débito.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#formalizacion":{
+        "props":{
+            "text":"**V. FORMALIZACIÓN DE PEDIDOS.**\n Para formalizar el pedido, el cliente deberá seguir las instrucciones de compra que le proporcionaremos en las redes o contactarse con alguno de nuestros representantes\nLa compra del producto se formalizará a partir de la selección y adquisición del(los) producto(s).\nEn el caso de las compras online, antes de que finalice el pedido, SANITARIOS TH S.A le solicitará al cliente que lo confirme, con el objeto de evitar cualquier error involuntario. A tal efecto, deberá validar los productos incluidos en el carrito de la compra, la dirección de envío y facturación, así como que la adquisición de tales productos conlleva una obligación de pago por su parte que finalizará el proceso de formalización de la compra.\nSANITARIOS TH S.A le conformará al cliente la recepción de su Pedido mediante el envío de un acuse de recibo al correo electrónico que nos haya facilitado en un plazo no superior a las 24 horas siguientes a la recepción del pedido, comunicación que implicará la recepción y aceptación del mismo por nuestra Empresa. En él figurará un resumen de las características esenciales del producto, datos de contacto de nuestra Compañía, así como copia de estas Condiciones Particulares de Venta, y especificará el precio, gastos de transporte, así como cualquier otro gasto, forma de pago y condiciones de entrega del producto, y cómo ejercitar, en su caso, su derecho de desistimiento, o activar un botón de arrepentimiento del que le facilitaremos el oportuno formulario. El cliente deberá comprobar el contenido de esta comunicación e informar a SANITARIOS TH S.A si detecta algún error u omisión en la misma, con el objeto de que podamos subsanarlo a la mayor brevedad. En cualquier caso, le recomendamos a cada cliente que conserve dicha comunicación.\n Asimismo, SANITARIOS TH S.A se reserva el derecho de no aceptar un pago mediante tarjeta de crédito, pudiendo anular el pedido si tuviese la sospecha de que el comprador (i) no es el titular de la tarjeta de crédito facilitada o (ii) si, habiendo puesto dicha circunstancia en su conocimiento, no quisiera acceder a utilizar otra modalidad de pago.\nMediante la remisión de su Pedido al vendedor el cliente está formalizando su compra y aceptando las presentes Condiciones Particulares de Compra, a las que quedará sometido, dando lugar a la perfección del contrato de compraventa.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#plazos-entregas":{
+        "props":{
+            "text": "**VI. PLAZOS Y FORMA DE ENTREGA DE PRODUCTOS.**\nUna vez que el cliente recibe la comunicación confirmando la recepción del pedido, éste será preparado en el depósito de SANITARIOS TH S.A o de cualquiera de sus proveedores para enviarlo a la dirección indicada por el cliente y que lo reciba en el  domicilio en el plazo indicado en la publicación, recordamos que no siempre son exactos pudiendo extenderse hasta un plazo de cinco días hábiles, si fuera el caso un representante de la Empresa se contactará con el cliente brindándole la opción de cancelar la compra para reintegrarle el dinero. En caso de productos que han sido entregados y el cliente observa que tienen detalles, fallas de fabricación y activa el botón de arrepentimiento y no hubiera más stock de ese producto en la Empresa se le ofrecerá nuevamente el reembolso del dinero, la misma suma que haya pagado el cliente en el momento de la compra, ello no genera ningún costo para el cliente, pero tampoco se asume por parte de la Empresa ningún tipo de interés ni saldo extra por el tiempo transcurrido.\nLos plazos de entrega indicados son estimativos, no pudiendo garantizar SANITARIOS TH S.A el cumplimiento exacto de los mismos. No obstante lo anterior, la Empresa empleará sus mejores esfuerzos para cumplir el/los plazo(s) de entrega indicados, haciendo todo lo posible para realizar las entregas de forma puntual. Se reitera que en caso de que tuviésemos conocimiento de que, por cualquier circunstancia, no pudiéramos cumplir con el plazo establecido, comunicaríamos dicha circunstancia a la mayor brevedad al cliente vía email, teléfono o WhatsApp. Recuerde que en caso de una circunstancia ajena a la empresa (es decir, que tenga que ver con el transporte) también le será comunicada.\nAsimismo, en el caso de que el cliente no reciba el pedido en el/los plazo(s) indicado(s), o tenga cualquier queja o reclamo sobre el mismo, rogamos que el cliente se contacte inmediatamente con nosotros a través de nuestras líneas de Atención al Cliente en el que gestionaremos la incidencia en el plazo más breve posible.\nLa expedición y el transporte de los pedidos se realizarán con cargo al cliente según se establece en el párrafo IV.\nSANITARIOS TH S.A notificará por correo electrónico cuándo EL pedido ha sido entregado a la empresa de logística contratada, con el objeto de que el cliente pueda realizar un seguimiento del mismo.\nSi previamente se coordinó día y horario de entrega, el transportista seleccionado intentará entregar en la dirección indicada cumpliendo lo acordado, si se trata de envío por Expreso, la entrega efectuará en los plazos indicados al realizar la compra y será en los horarios que maneja el propio Expreso. En ausencia del destinatario, el servicio al cliente de la empresa de transporte será notificado de inmediato para que la persona responsable pueda ponerse nuevamente en contacto con él y organizar la entrega. Si la entrega debe ser reprogramada por ausencia del cliente, este último debe contactarse nuevamente con atención al cliente para conocer si se efectuará algún cargo por la entrega fallida, para evitar lo mencionado SANITARIOS TH S.A le solicita a cada cliente que permanezca en su domicilio en la franja horaria pactada (cuando eso suceda) y en caso de Expreso, que realice el seguimiento diariamente para estar presente el día de entrega. \nEn cada pedido el usuario deberá asumir los gastos de envío (a excepción de que se ofrezca envío gratis). Tales gastos figurarán ya incluidos en el precio final del producto, antes de que confirmes tu pedido.\nSANITARIOS TH S.A remitirá la documentación fiscal (factura en formato electrónico) a partir de los datos correspondientes En caso de detectar cualquier error tipográfico en las mismas, rogamos que el cliente se contacte inmediatamente con nosotros.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#garantias":{
+        "props":{
+            "text": "**VII. GARANTÍAS.**\n SANITARIOS TH S.A garantiza la autenticidad de los productos puestos a la venta a través de sus canales de venta, y que tales productos son fabricados y acondicionados de conformidad con la normativa aplicable. En caso de que el cliente reciba un producto dañado o defectuoso y se comprobara que dicho daño fue originado antes de la entrega, La Empresa cambiará el producto o reembolsará el precio del producto reconocido como defectuoso por SANITARIOS TH S.A, tras su examen por el personal de ésta, sin cargo adicional para el cliente. Para ello se le solicitará las fotos del producto. En su caso, se enviará al domicilio del cliente un transporte a retirar/cambiar el producto reconocido como defectuoso, solicitando previamente su autorización y acreditando el transporte que concurrirá. En ningún caso se recibirán productos defectuosos sin aviso al sector de post venta, en el local, transportados por el cliente.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#desistimiento":{
+        "props":{
+            "text":"**VIII. DERECHO DE DESISTIMIENTO.**\n El cliente podrá devolver cualquier Producto adquirido en nuestro Compañía por cualquiera de los canales, dentro del plazo de diez días corridos desde la efectiva recepción de su Pedido, siempre y cuando éste no haya sido abierto ni manipulado. A tal efecto, deberá cumplimentar [arrepentimiento](https://tiosoar.com/pages/arrepentimiento) y remitirla a SANITARIOS TH SA vía correo electrónico. SANITARIOS TH S.A le confirmará al cliente la recepción del formulario en un plazo máximo de 15 días\nEn este caso, SANITARIOS TH S.A le devolverá el importe íntegro de la compra, en un plazo no superior a 14 días hábiles, contados desde la fecha en que nos comunique su decisión de desistir, anular la compra con su arrepentimiento. No obstante lo anterior, serán de su exclusiva cuenta y cargo los gastos de devolución del Producto, el cual deberá remitir a SANITARIOS TH S.A en un plazo no superior a 14 días naturales, contados desde la fecha en que nos comunique su decisión de desistir.\nEn el supuesto que el desistimiento o revocación fuese previo a la recepción del Producto, Ud. deberá ponerse en contacto directamente con SANITARIOS TH S.A al número de teléfono de Atención al Cliente para poder ejercitar su derecho a desistir o resolver la operación, la cual se realizará sin cargo alguno.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#cancelacion":{
+        "props":{
+            "text": "**IX. POLÍTICA DE CANCELACIONES.**\n Se podrá cancelar cualquier solicitud de pedido antes de que SANITARIOS TH S.A le confirme definitivamente el pedido al cliente.  Si el pedido ya hubiera sido confirmado, el cliente debe considerar  lo dispuesto en la cláusula IX de las presentes Condiciones Particulares de Compra y a las condiciones de entrega y aceptación de pedidos.\nSi la devolución del producto trae su causa en algún defecto, error o deterioro detectado en el mismo, el cliente podrá exigir a SANITARIOS TH S.A la devolución íntegra del precio del producto o la sustitución de éste por otro de idénticas características; no se podrá cambiar por uno de mayor valor, salvo que el cliente opte por abonar la diferencia.\nAgradecemos a cada cliente leer las condiciones para activar el botón de arrepentimiento [Arrepentimiento](https://tiosoar.com/pages/arrepentimiento)\nEl cliente podrá acceder y consultar su factura directamente en el correo electrónico otorgado al realizar la compra.\nEn caso de detectar cualquier error tipográfico en las mismas, rogamos que el cliente se comunique inmediatamente con nosotros.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#responsabilidad":{
+        "props":{
+            "text": "**X. RESPONSABILIDAD.** \n SANITARIOS TH S.A no garantiza la disponibilidad, la continuidad ni la infalibilidad del funcionamiento de los sitios publicados online durante el proceso de compra y, en consecuencia, excluye en la máxima medida permitida por la legislación vigente, cualquier responsabilidad por los daños y perjuicios de toda naturaleza que pudieran deberse a la falta de disponibilidad o de continuidad del funcionamiento de los mismos.\nSi por error recibieras un producto distinto al solicitado por causa imputable a SANITARIOS TH S.A, éste será retirado por La Empresa a la mayor brevedad, haciéndote entrega del producto correcto o efectuando el correspondiente reembolso, sin ningún cargo adicional para ti\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#condiciones-pago":{
+        "props":{
+            "text": "**XI. MODALIDADES Y CONDICIONES DE PAGO.** \n El pago de los productos se llevará a cabo según las instrucciones proporcionadas en el propio proceso de compra.SANITARIOS TH S.A enviará al cliente una factura por el importe del (los) producto(s) adquiridos, a la dirección de correo electrónico facilitada en el proceso de compra, lo cual consiente expresamente cada cliente. Asimismo, podrá consultar cómodamente la totalidad de facturas expedidas a través de su cuenta de usuario (no se si tienen esto).\nPor razones de seguridad, en el caso de pago con tarjeta de crédito, SANITARIOS TH S.A podrá solicitarte que remitas copia de tu D.N.I, documento que acredite tu identidad.\nAsimismo, La Empresa se reserva el derecho de no aceptar un pago con tarjeta de crédito, pudiendo anular la Solicitud de pedido, si tuviese la seguridad de que el comprador no es el titular de la tarjeta de crédito facilitada o si, después de haber puesto dicha circunstancia en tu conocimiento, no quisieras acceder a utilizar otra modalidad de pago.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#caracter-personal":{
+        "props":{
+            "text":"**XII. TRATAMIENTO DE DATOS DE CARÁCTER PERSONAL.** \n Para poder realizar pedidos a través de nuestro sitio Web, teléfono, redes sociales, correo electrónico o WhatsApp se requiere que el cliente nos proporcione una serie de datos adicionales, que pudieran contener datos de carácter personal de tipo básico. En ese caso, SANITARIOS TH S.A garantiza la protección y confidencialidad de los datos personales, domiciliarios, de pago, así como de cualquier otro tipo que hayan sido proporcionados por el cliente a nuestros representantes, a consecuencia de la formalización del pedido, estando en todo caso sujetos a la política en materia de protección de datos personales.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#legislacion":{
+        "props":{
+            "text":"**XIII. LEGISLACIÓN Y JURISDICCIÓN.** \n Las presentes Condiciones de Compra se rigen por la normativa vigente, respecto a los Derechos del consumidor y su protección constitucional y además de las disposiciones que emanan del Derecho común respecto a las condiciones de contratación.\nPara cualquier controversia que pudiera derivarse de la interpretación o aplicación de las presente Condiciones de Compra, las partes se someten a la jurisdicción de los Juzgados y Tribunales de la Ciudad Autónoma de Bs As, salvo que se trate de consumidores, en cuyo caso las partes se someterán a la jurisdicción de los Juzgados y Tribunales que correspondan según la Ley General para la Defensa de los Consumidores.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#inconvenientes":{
+        "props":{
+            "text":"**XIV. RESOLUCIÓN DE INCONVENIENTES.**\nSi el cliente ha tenido un problema con una compra online, puede enviar un email a crm@tiosohogar.com o comunicarse al 2150 0122 / 6842 0700.\n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#general":{
+        "props":{
+            "text":"**XIV. GENERAL.** \n Los términos y condiciones aquí mencionados representan el acuerdo completo entre las partes y sustituyen a todos los acuerdos anteriores que pudieran existir entre ellas. Los títulos utilizados en estas Condiciones son sólo con fines de referencia y en ninguna manera definen o limitan el alcance de la disposición que titulan. Si cualquier disposición de las mismas se considerara inaplicable por cualquier razón, tal disposición deberá reformarse sólo en la medida necesaria para hacerla exigible y las demás condiciones del presente Acuerdo permanecerán en pleno vigor y efecto. La inacción de SANITARIOS TH S.A con respecto a un incumplimiento de este acuerdo por el cliente o por otros no constituye una renuncia y no limitará los derechos de La Empresa con respecto a dicho incumplimiento o infracciones posteriores. \n",
+            "blockclass": "bulletsTyC",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER"
+        }
     }
 }

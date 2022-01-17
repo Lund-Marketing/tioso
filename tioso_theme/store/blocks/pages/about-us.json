@@ -10,7 +10,6 @@
       "flex-layout.col#text-about-us"
     ]
   },
-
   "flex-layout.col#text-about-us": {
     "children": [
       "rich-text#title-about-us",

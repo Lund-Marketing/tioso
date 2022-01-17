@@ -28,8 +28,8 @@
 
   "form#contact-us": {
     "props": {
-      "entity": "contact",
-      "schema": "site-contact"
+      "entity": "contactForm",
+      "schema": "contact-form"
     },
     "blocks": [
       "form-success#contact-us"
@@ -56,24 +56,24 @@
     }
   },
 
-  "form-input.text#title": {
-    "props": {
-      "pointer": "#/properties/title"
-    }
-  },
   "form-input.text#name": {
     "props": {
-      "pointer": "#/properties/name"
+      "pointer": "#/properties/nombreCliente"
     }
   },
   "form-input.text#email": {
     "props": {
-      "pointer": "#/properties/email"
+      "pointer": "#/properties/mailCliente"
+    }
+  },
+  "form-input.text#title": {
+    "props": {
+      "pointer": "#/properties/asunto"
     }
   },
   "form-input.textarea#message": {
     "props": {
-      "pointer": "#/properties/message"
+      "pointer": "#/properties/mensaje"
     }
   },
 
@@ -83,3 +83,4 @@
     }
   }
 }
+

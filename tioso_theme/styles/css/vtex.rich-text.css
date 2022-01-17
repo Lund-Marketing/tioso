@@ -67,35 +67,40 @@
   font-weight: 700;
 }
 
+/* TyC */
+.wrapper{
+  width: 80%;
+}
+
 
 /* about us */
 
 .container--about{
   text-align: center;
-  width: 100%;
+  width: 100% !important;
 }
 
 .container--title{
   text-align: center;
-  width: 100%;
+  width: 100% !important;
 }
 
 .wrapper--about{
-  width: 1000px;
+  width: 1000px !important;
 }
 
 .wrapper--title{
-  width: 500px;
+  width: 500px !important;
 }
 
 .headingLevel1--title{
   text-align: center;
-  width: 500px;
+  width: 500px !important;
 }
 
 .paragraph--about{
   text-align: center;
-  width: 1000px;
+  width: 1000px !important;
 }
 
 @media only screen and (min-width: 640px) {
