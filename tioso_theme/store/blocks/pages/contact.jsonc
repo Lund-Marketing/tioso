@@ -28,8 +28,8 @@
 
   "form#contact-us": {
     "props": {
-      "entity": "contactForm",
-      "schema": "contact-form"
+      "entity": "CU",
+      "schema": "contactForm"
     },
     "blocks": [
       "form-success#contact-us"
