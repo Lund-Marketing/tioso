@@ -1,7 +1,167 @@
 {
 "store.custom#arrepentimiento": {
     "children": [
-      
+      "flex-layout.row#bloque-arrepentimiento",
+      "flex-layout.row#bloque-info"
     ]
+  },
+  "flex-layout.row#bloque-arrepentimiento":{
+    "children": [
+      "flex-layout.row#form-arrepentimiento"
+    ]
+  },
+  "flex-layout.row#form-arrepentimiento": {
+    "props": {
+      "blockClass": "contact"
+    },
+    "children": [
+      "flex-layout.col#arrepentimiento"
+    ]
+  },
+
+  "flex-layout.col#arrepentimiento": {
+    "children": [
+      "rich-text#arrepentimiento",
+      "form#arrepentimiento"
+    ]
+  },
+  "rich-text#arrepentimiento": {
+    "props": {
+      "text": "## Llená los datos para finalizar la solicitud!"
+    }
+  },
+
+  "form#arrepentimiento": {
+    "props": {
+      "entity": "BA",
+      "schema": "Boton-de-arrepentimiento"
+    },
+    "blocks": [
+      "form-success#arrepentimiento"
+    ],
+    "children": [
+      "form-input.text#nombres",
+      "form-input.text#apellidos",
+      "form-input.text#dni",
+      "form-input.text#telefono",
+      "form-input.text#mail",
+      "form-input.text#pedido",
+      "form-input.text#motivo",
+      "form-submit#arrepentimiento"
+    ]
+  },
+
+  "form-success#arrepentimiento": {
+    "children": [
+      "rich-text#success-submit"
+    ]
+  },
+  "rich-text#success-submit": {
+    "props": {
+      "text": "Gracias por escribirnos, te responderemos a la brevedad.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#nombres": {
+    "props": {
+      "pointer": "#/properties/nombres"
+    }
+  },
+  "form-input.text#apellidos": {
+    "props": {
+      "pointer": "#/properties/apellidos"
+    }
+  },
+  "form-input.text#dni": {
+    "props": {
+      "pointer": "#/properties/dni"
+    }
+  },
+  "form-input.text#telefono": {
+    "props": {
+      "pointer": "#/properties/telefono"
+    }
+  },
+  "form-input.text#mail": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#pedido": {
+    "props": {
+      "pointer": "#/properties/pedido"
+    }
+  },
+  "form-input.text#motivo": {
+    "props": {
+      "pointer": "#/properties/motivo"
+    }
+  },
+  "form-submit#arrepentimiento": {
+    "props": {
+      "label": "Enviar"
+    }
+  },
+  "flex-layout.row#bloque-info": {
+    "children": [
+      "flex-layout.col#info"
+    ] 
+  },
+  "flex-layout.col#info":{
+    "children":[
+      "rich-text#parrafo-1",
+      "rich-text#parrafo-2",
+      "rich-text#parrafo-3",
+      "rich-text#parrafo-4",
+      "rich-text#parrafo-5"
+    ],
+    "props": {
+      "blockclass": "terminosColumn",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "center",
+      "width": "grow"
+    }
+  },
+  "rich-text#parrafo-1":{
+    "props": {
+      "text": "- Acepto que es condición necesaria para hacer uso del derecho en productos que ya fueron\nentregados; que el producto no haya sido usado, ni instalado y que se encuentren en las\nmismas condiciones de entrega. También que se debe mantener el embalaje original en el que\nel producto fue entregado (esto incluye: caja, embalaje, manual, accesorios, etc., tal como el\nproducto proviene de origen) de acuerdo a lo informado en el momento de la compra.\n",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "p-arrepentimiento"
+    }
+  },
+  "rich-text#parrafo-2":{
+    "props": {
+      "text": "Conforme la Res. 424/2020 y los términos del art. 34 de la Ley 24.240 y cctes esta opción es\núnicamente válida hasta 10 días luego de la recepción del producto, para la activación se\nrequiere la previa comunicación con el sector correspondiente.\n",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "p-arrepentimiento"
+    }
+  },
+  "rich-text#parrafo-3":{
+    "props": {
+      "text": "Para el caso de productos averiados, con roturas, raspones, fallas de fabricación o que no\nfuncionen correctamente (electrodomésticos, por ejemplo) o bien el producto que recibió no\nse trata del que compró; recuerde que antes de activar la opción de arrepentimiento el servicio\nde post venta le solicitará como condición que envíe las fotos del producto y descripción de la\nsituación para agilizar el trámite, además se tendrá en consideración la conformidad o no con\nel producto al ser entregado.\n",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "p-arrepentimiento"
+    }
+  },
+  "rich-text#parrafo-4":{
+    "props": {
+      "text": "En caso de optar por la anulación de la compra o consulta sobre pedidos **aún no entregados,**\npor favor escribanos por correo electrónico a <crm@tiosohogar.com> y para consultas de garantía\npasados los 10 días de entrega contactarse con la garantía de origen del producto.\n",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "p-arrepentimiento"
+    }
+  },
+  "rich-text#parrafo-5":{
+    "props": {
+      "text": "En todos los casos le pedimos se comunique directamente con nosotros y sin dudas haremos\ntodo lo que esté a nuestro alcance para resolver el inconveniente.",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "blockClass": "p-arrepentimiento"
+    }
   }
+
 }

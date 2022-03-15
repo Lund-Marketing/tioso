@@ -122,6 +122,10 @@
   padding: 30px;
 }
 
+.flexRow--contact{
+  margin-bottom: 50px;
+}
+
 @media (max-width: 640px){
   .flexRowContent--deal1{
     justify-content: center;
